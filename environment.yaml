@@ -1,4 +1,4 @@
-name: ldmCLI
+name: sd_discord_bot
 channels:
   - pytorch
   - defaults
