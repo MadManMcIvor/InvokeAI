@@ -12,7 +12,7 @@ The plan is to turn this into a playable game on Discord, but for now it's just 
  1. Set up a bot on Discord and add it to your server. Here are [instructions.](https://discordpy.readthedocs.io/en/stable/discord.html)
  2. Follow the installation steps on [InvokeAI's fork of Stable Diffusion](https://github.com/invoke-ai/InvokeAI).  This [article](https://stablediffusionguides.carrd.co/#four) also does a good job running through the process.
  3. Instead of activating the environment as `conda activate ldm`, use `conda activate sd_discord_bot` 
- 4. Create a directory named "bot_token.py" in the main directory. In it, create a variable and put your bot's token in like this: 
+ 4. Create a file named "bot_token.py" in the main directory. In it, create a variable and put your bot's token in like this: 
     `bot_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXX'`
 5. Enter `python sd_discord.py` into your Anaconda/Miniconda terminal. It should look like this: 
 ![screenshot of the terminal](readme_images/SD_Discord_Bot_terminal.png) 
